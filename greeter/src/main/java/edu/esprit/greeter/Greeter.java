@@ -1,6 +1,7 @@
 package edu.esprit.greeter;
 
 public class Greeter {
+	public String var1;
 	/**
 	 * sayHello method
 	 * @param name
@@ -12,4 +13,5 @@ public String sayHello(String name){
 		throw new IllegalArgumentException();
 	return"hello"+name;
 }
+
 }
