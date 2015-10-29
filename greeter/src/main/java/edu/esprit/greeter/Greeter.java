@@ -2,7 +2,7 @@ package edu.esprit.greeter;
 
 public class Greeter {
 
-	public String var1;
+	public String v;
     public String var5;
     public String var3;
     public String var4;
