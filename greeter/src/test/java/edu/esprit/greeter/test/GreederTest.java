@@ -20,6 +20,13 @@ public class GreederTest {
 		Assert.assertEquals("helloworld",result);
 		
 	}
+	@Test 
+	public void itShouldSayHelloWorld1(){
+		
+		String result=greeter.sayHello("world");
+		Assert.assertEquals("helloworld1",result);
+		
+	}
 	@Test (expected=IllegalArgumentException.class)
 	public void itShouldRaiseException(){
 		String param="MAN";
