@@ -5,6 +5,7 @@ public class Greeter {
 	public String var1;
     public String var2;
     public String var3;
+    public String var4;
 	/**
 	 * sayHello method
 	 * @param name
